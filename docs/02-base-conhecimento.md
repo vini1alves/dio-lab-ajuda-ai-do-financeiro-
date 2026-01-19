@@ -7,8 +7,8 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
 | `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
+| `perfil_investidor.py` | PYTHON | Personalizar recomendações |
+| `produtos_financeiro.py` | PYTHON | Sugerir produtos adequados ao perfil |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
 
 > [!TIP]
@@ -20,7 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Eu alterei o alguns dados do perfil eu mudei o tipo de arquivo json para python.
 
 ---
 
@@ -29,7 +29,15 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+```python
+import pandas as pd
+from perfil_investidor import usuario
+from produtos_financeiro import investimentos
+
+transacao = pd.read_csv("transacoes.csv")
+usuario
+investimentos
+```
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
