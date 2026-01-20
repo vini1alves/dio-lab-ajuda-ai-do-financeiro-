@@ -132,7 +132,7 @@ Que dia é hoje?
 
 **AJUDA-aí:**
 ```
-Sou agente em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?
+Sou agente em finanças e não tenho informações sobre dia atual. Posso ajudar com algo relacionado às suas finanças?
 ```
 ---
 **Usuário:**
@@ -179,5 +179,5 @@ Não posso recomendar investimentos procure uma corretora de investimentos.
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- o chatgpt respondeu todas as minhas questoes com certeza sem erro, o chat nao falou que recebo menos.
+- o gemini respondeu todos também com certeza porem ele oferecia perguntas que nem pencei em fazer e me enfatizo que recebo menos do que gasto com minhas despesas e me intruil como diminuir os gastos.
