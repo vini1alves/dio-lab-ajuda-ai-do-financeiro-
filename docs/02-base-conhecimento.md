@@ -6,7 +6,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `projeto3` | PYTHON | Codigo principal |
+| `projeto3.py` | PYTHON | Codigo principal |
 | `perfil_investidor.py` | PYTHON | Perfil do clientes |
 | `produtos_financeiro.py` | PYTHON | Sugerir produtos adequados ao perfil |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
