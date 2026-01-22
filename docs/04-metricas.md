@@ -47,16 +47,43 @@ Crie testes simples para validar seu agente:
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ---
+---
+ivanucia
+## Exemplos de Cenários de Teste
+
+Crie testes simples para validar seu agente:
+
+### Teste 1: Consulta de gastos
+- **Pergunta:** "Quanto gastei com alimentação?"
+- **Resposta esperada:** Valor baseado no `transacoes.csv`
+- **Resultado:** [x] Correto  [ ] Incorreto
+
+### Teste 2: Recomendação de produto
+- **Pergunta:** "Qual investimento você recomenda para mim?"
+- **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Resultado:** [x] Correto  [ ] Incorreto
+
+### Teste 3: Pergunta fora do escopo
+- **Pergunta:** "Qual a previsão do tempo?"
+- **Resposta esperada:** Agente informa que só trata de finanças
+- **Resultado:** [x] Correto  [ ] Incorreto
+
+### Teste 4: Informação inexistente
+- **Pergunta:** "Quanto rende o produto XYZ?"
+- **Resposta esperada:** Agente admite não ter essa informação
+- **Resultado:** [x] Correto  [ ] Incorreto
+
+---
 
 ## Resultados
 
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- as pergutas  funcionaram
 
 **O que pode melhorar:**
-- [Liste aqui]
+- teve alguns erro de digitação da ia
 
 ---
 
