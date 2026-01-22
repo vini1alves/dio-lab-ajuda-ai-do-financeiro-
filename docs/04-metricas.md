@@ -48,7 +48,33 @@ Crie testes simples para validar seu agente:
 
 ---
 ---
-ivanucia
+Ivanucia
+## Exemplos de Cenários de Teste
+
+Crie testes simples para validar seu agente:
+
+### Teste 1: Consulta de gastos
+- **Pergunta:** "Quanto gastei com o supermecado?"
+- **Resposta esperada:** Valor baseado no `transacoes.csv`
+- **Resultado:** [x] Correto  [ ] Incorreto
+
+### Teste 2: Recomendação de produto
+- **Pergunta:** "Qual cdb você recomenda para mim?"
+- **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Resultado:** [x] Correto  [ ] Incorreto
+
+### Teste 3: Pergunta fora do escopo
+- **Pergunta:** "qual e a previsão do tempo hoje?"
+- **Resposta esperada:** Agente informa que só trata de finanças
+- **Resultado:** [x] Correto  [ ] Incorreto
+
+### Teste 4: Informação inexistente
+- **Pergunta:** "quanto rende 10 mil no cdb ipca+?"
+- **Resposta esperada:** Agente admite não ter essa informação
+- **Resultado:** [x] Correto  [ ] Incorreto
+---
+---
+Lourival
 ## Exemplos de Cenários de Teste
 
 Crie testes simples para validar seu agente:
@@ -56,23 +82,49 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [x] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [x] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [x] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [x] Correto  [ ] Incorreto
+- **Resultado:** [ ] Correto  [ ] Incorreto
+---
+---
+Stephanny
+## Exemplos de Cenários de Teste
 
+Crie testes simples para validar seu agente:
+
+### Teste 1: Consulta de gastos
+- **Pergunta:** "Quanto gastei com alimentação?"
+- **Resposta esperada:** Valor baseado no `transacoes.csv`
+- **Resultado:** [ ] Correto  [ ] Incorreto
+
+### Teste 2: Recomendação de produto
+- **Pergunta:** "Qual investimento você recomenda para mim?"
+- **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Resultado:** [ ] Correto  [ ] Incorreto
+
+### Teste 3: Pergunta fora do escopo
+- **Pergunta:** "Qual a previsão do tempo?"
+- **Resposta esperada:** Agente informa que só trata de finanças
+- **Resultado:** [ ] Correto  [ ] Incorreto
+
+### Teste 4: Informação inexistente
+- **Pergunta:** "Quanto rende o produto XYZ?"
+- **Resposta esperada:** Agente admite não ter essa informação
+- **Resultado:** [ ] Correto  [ ] Incorreto
+---
 ---
 
 ## Resultados
