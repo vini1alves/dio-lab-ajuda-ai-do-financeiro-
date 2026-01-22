@@ -5,7 +5,7 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Ele resolve como uma pessoa aprende a investir o cdb do seu banco e como funciona todos os cálculos, rendimentos, juros e obrigações com a receita Federal para publico que nao tem conhecimento sobre finanças básicas.
+Ele ensina como uma pessoa aprende a investir o cdb do seu banco e como funciona todos os cálculos, rendimentos, juros e obrigações com a receita Federal para publico que nao tem conhecimento sobre finanças básicas.
 ele vai ajudar as pessoas que não disponibilidade para aprender a investir.
 
 ### Solução
