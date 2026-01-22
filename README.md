@@ -1,127 +1,30 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 Bia do Financeiro - Agente Inteligente de Consultoria Financeira
 
-## Contexto
+## 📋 Sobre o Projeto
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
+**AJUDA-aí** é um agente de IA generativa desenvolvido para oferecer consultoria financeira personalizada e inteligente. O projeto foi criado como parte do Bootcamp Bradesco/DIO, representando uma evolução de chatbots reativos para assistentes proativos que antecipam necessidades financeiras dos usuários com o investimento de renda fixa CDB.
 
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
+### 🎯 Objetivos
+
+- **Antecipar necessidades** financeiras ao de apenas responder perguntas!
+- **Personalizar** sugestões baseadas no perfil e histórico do cliente
 - **Cocriar soluções** financeiras de forma consultiva
 - **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
 
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
-
----
-
-## O Que Você Deve Entregar
-
-### 1. Documentação do Agente
-
-Defina **o que** seu agente faz e **como** ele funciona:
-
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
-
----
-
-### 2. Base de Conhecimento
-
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
-
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `projeto3.py` | PYTHON | Codigo principal |
-| `perfil_investidor.py` | PYTHON | Perfil e preferências do cliente |
-| `produtos_financeiro.py` | PYTHON | Produtos e serviços disponíveis |
-
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
-
----
-
-### 3. Prompts do Agente
-
-Documente os prompts que definem o comportamento do seu agente:
-
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
-
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
-
----
-
-### 4. Aplicação Funcional
-
-Desenvolva um **protótipo funcional** do seu agente:
-
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
-
-📁 **Pasta:** [`src/`](./src/)
-
----
-
-### 5. Avaliação e Métricas
-
-Descreva como você avalia a qualidade do seu agente:
-
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
-
----
-
-### 6. Pitch
-
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
-
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
-
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
-
----
-
-## Ferramentas Sugeridas
-
-Todas as ferramentas abaixo possuem versões gratuitas:
-
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
-
----
-
-## Estrutura do Repositório
+## 🏗️ Estrutura do Projeto
 
 ```
-📁 lab-agente-financeiro/
+📁 dio-lab-bia-do-financeiro/
 │
-├── 📄 README.md
+├── 📄 README.md                      # Documentação principal
 │
 ├── 📁 data/                          # Dados mockados para o agente
-│   ├── projeto3.py                   # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.py          # Perfil do cliente (PYTHON)
-│   ├── produtos_financeiros.py       # Produtos disponíveis (PYTHON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
+│   ├── projeto3.py                   # codigo de análise de perfil
+│   ├── perfil_investidor.py          # Perfil do cliente
+│   ├── produtos_financeiros.py       # Produtos disponíveis
+│   └── transacoes.csv                # Histórico de transações
 │
-├── 📁 docs/                          # Documentação do projeto
+├── 📁 docs/                          # Documentação detalhada
 │   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
 │   ├── 02-base-conhecimento.md       # Estratégia de dados
 │   ├── 03-prompts.md                 # Engenharia de prompts
@@ -129,21 +32,165 @@ Todas as ferramentas abaixo possuem versões gratuitas:
 │   └── 05-pitch.md                   # Roteiro do pitch
 │
 ├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
+│   └── app.py                        # Aplicação principal
 │
-├── 📁 assets/                        # Imagens e diagramas
+├── 📁 assets/                        # Recursos visuais
 │   └── ...
 │
-└── 📁 examples/                      # Referências e exemplos
+└── 📁 examples/                      # Exemplos e referências
     └── README.md
 ```
 
+## 🚀 Funcionalidades Principais
+
+### 1. Análise de Perfil de Investidor
+- Avaliação personalizada do perfil de risco
+- Recomendações de produtos adequados ao perfil
+- Análise de objetivos financeiros de curto, médio e longo prazo
+
+### 2. Gestão de Transações
+- Monitoramento de histórico de transações
+- Identificação de padrões de gastos
+- Alertas proativos sobre gastos incomuns
+
+### 3. Consultoria Personalizada
+- Sugestões de produtos financeiros adequados
+- Orientações sobre investimentos e economia
+
+### 4. Segurança e Confiabilidade
+- Sistema anti-alucinação para respostas precisas
+- Validação de dados contra base de conhecimento
+- Respostas baseadas em informações verificadas
+
+## 🛠️ Tecnologias Utilizadas
+
+| Categoria | Tecnologias |
+|-----------|------------|
+| **Linguagem** | Python 3.8+ |
+| **IA/LLM** | Gemini |
+| **Interface** | Streamlit |
+| **Dados** | Pandas, CSV, python |
+
+## 📦 Instalação
+
+### Pré-requisitos
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes Python)
+
+### Passos
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/vini1alves/dio-lab-bia-do-financeiro-/tree/main
+```
+
+2. Instale as dependências:
+```bash
+## Exemplo de requirements.txt
+
+streamlit
+google.generativeai
+pandas
+```
+
+3. Configure as variáveis de ambiente:
+```bash
+src/
+├── app.py 
+# Edite o arquivo app.py com suas credenciais de API
+```
+
+## 🎮 Como Usar
+
+### Executando a Aplicação
+
+```bash
+# Acesse a pasta src
+src/
+├── app.py 
+
+# Execute a aplicação
+python: streamlit run DIO/app.py
+```
+
+A aplicação estará disponível em http://localhost:8501 pelo streamlit 
+
+### Exemplos de Interação
+
+```
+Usuário: "Oi Bia, como posso economizar mais este mês?"
+Bia: "Com base no seu histórico, identifiquei que você gasta em média R$ 450 
+      em alimentação fora de casa. Que tal estabelecer uma meta de reduzir 
+      isso para R$ 300? Preparei algumas dicas personalizadas para você..."
+
+Usuário: "Qual investimento você recomenda para mim?"
+Bia: "Analisando seu perfil moderado e horizonte de 5 anos, recomendo uma 
+      carteira diversificada com 60% em renda fixa e 40% em renda variável. 
+      Posso detalhar as opções disponíveis?"
+```
+
+## 📊 Base de Conhecimento
+
+O agente utiliza dados mockados localizados na pasta [`/data`](/data):
+
+- **transacoes.csv**: Histórico financeiro do cliente
+- **perfil_investidor.py**: Perfil de risco e preferências
+- **produtos_financeiros.py**: Catálogo de produtos disponíveis
+- **projeto3.py**: Lógica de atendimentos e interações
+
+## 🎯 Casos de Uso
+
+1. **Planejamento Financeiro**: Auxílio na criação de metas e orçamentos
+2. **Consultoria de Investimentos**: Recomendações personalizadas de produtos
+3. **Análise de Gastos**: Identificação de padrões e oportunidades de economia
+4. **Educação Financeira**: Orientações sobre conceitos financeiros
+
+## 📈 Métricas e Avaliação
+
+O projeto implementa métricas para avaliar:
+
+- **Precisão das respostas**: Conformidade com a base de conhecimento
+- **Taxa de segurança**: Ausência de alucinações
+- **Personalização**: Adequação ao perfil do usuário
+- **Satisfação do usuário**: Feedback e iterações
+
+Veja mais detalhes em [`docs/04-metricas.md`](docs/04-metricas.md)
+
+## 🎬 Demonstração
+
+Assista ao pitch do projeto: [Link para o vídeo](docs/05-pitch.md)
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um Fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
+
+## 👤 Autor
+
+**Vinícius Alves**
+
+- GitHub: [@vini1alves](https://github.com/vini1alves)
+- LinkedIn: [@Vinícius Alves](https://www.linkedin.com/in/vinicius-alves-aa1651171/)
+
+## 🙏 Agradecimentos
+
+- **DIO (Digital Innovation One)** - Pela estrutura do bootcamp
+- **Bradesco** - Pelo patrocínio e oportunidade
+- **Comunidade Open Source** - Pelas ferramentas e bibliotecas utilizadas
+
+## 📚 Recursos Adicionais
+
+- [Documentação Completa](docs/)
+- [Exemplos de Código](data/)
+- [API Reference](https://github.com/googleapis/python-genai))
+
 ---
 
-## Dicas Finais
+**Desenvolvido com ❤️ durante o Bootcamp Bradesco/DIO**
 
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
-5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+*Projeto em desenvolvimento ativo - última atualização: Janeiro 2026*
