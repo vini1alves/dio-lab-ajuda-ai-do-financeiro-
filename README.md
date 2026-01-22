@@ -116,9 +116,9 @@ Todas as ferramentas abaixo possuem versões gratuitas:
 ├── 📄 README.md
 │
 ├── 📁 data/                          # Dados mockados para o agente
-│   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
+│   ├── projeto3.py                   # Histórico de atendimentos (CSV)
+│   ├── perfil_investidor.py          # Perfil do cliente (PYTHON)
+│   ├── produtos_financeiros.py       # Produtos disponíveis (PYTHON)
 │   └── transacoes.csv                # Histórico de transações (CSV)
 │
 ├── 📁 docs/                          # Documentação do projeto
