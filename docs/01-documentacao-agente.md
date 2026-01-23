@@ -55,7 +55,7 @@ flowchart TD
     C --> E[Validação]
     E --> F[Resposta]
     F --> |Continua| A[Cliente]
-    F --> |Fim| G[Resposta]
+    F --> |Fim| G[Solução]
 ```
 
 ### Componentes
