@@ -36,7 +36,7 @@ flowchart TD
 │
 ├── 📄 README.md                      # Documentação principal
 │
-├── 📁 data/                          # Dados mockados para o agente
+├── 📁 data/(/data)                          # Dados mockados para o agente
 │   ├── projeto3.py                   # codigo de análise de perfil
 │   ├── perfil_investidor.py          # Perfil do cliente
 │   ├── produtos_financeiros.py       # Produtos disponíveis
