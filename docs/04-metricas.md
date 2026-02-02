@@ -150,9 +150,9 @@ Crie testes simples para validar seu agente:
 ## Métricas
 |Métricas|Pergunta|Nota (1-5)|
 |--------|--------|----------|
-|Assertividade|"Respondeu seu requerimento"|(   )|
-|Segurança |"Ela informou o dados alheios"|(   )|
-|Assertividade|"Voce entedeu o que ela respondeu"|(   )|
+|Assertividade|"Respondeu seu requerimento"|(5)|
+|Segurança |"Ela informou o dados alheios"|(5)|
+|Assertividade|"Voce entedeu o que ela respondeu"|(5)|
 
 ---
 
